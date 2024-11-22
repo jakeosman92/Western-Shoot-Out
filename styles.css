@@ -1,0 +1,43 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #a67c52;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4c3d30;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6e5445;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#game-screen {
+  background-image: url('background.png'); /* Replace with 8-bit Western image */
+  background-size: cover;
+}
